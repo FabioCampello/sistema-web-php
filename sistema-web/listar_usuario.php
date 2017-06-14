@@ -86,7 +86,7 @@
             while ($linhas = mysqli_fetch_array($resultado)) {
 
               if ($linhas['nivel_acesso_id'] == "1") {
-                    $nivel = "Adiministrador";
+                    $nivel = "Administrador";
 
                  }else{
 
